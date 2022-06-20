@@ -219,7 +219,33 @@ textarea {
 
 .btn-primary {
   background-color: #a7fff8;
-  /* color: #fff; */
+}
+
+#mapa {
+  position: relative;
+  padding: unset;
+}
+
+#mapa .section-title {
+  position: absolute;
+  top: 2rem;
+}
+
+.main-footer {
+  background-color: #005004;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  color: #ccc;
+}
+
+.copyright-container {
+  padding-top: 1rem;
+  border-top: 2px solid #ccc;
+  margin-top: 1.5rem;
+}
+
+.footer-text {
+  text-align: left;
 }
 
 @media screen and (max-width: 1200px) {
