@@ -16,7 +16,7 @@ li {
 
 input,
 textarea {
-  padding: .25rem;
+  padding: .5rem;
 }
 
 .bolder {
@@ -131,6 +131,7 @@ textarea {
 .news-item {
   width: 24%;
   box-shadow: 0px 0px 10px #00000050;
+  margin: 2rem 0;
 }
 
 .news-image {
@@ -246,6 +247,11 @@ textarea {
 
 .footer-text {
   text-align: left;
+}
+
+.btn-secondary {
+  background-color: #008000;
+  color: #fff;
 }
 
 @media screen and (max-width: 1200px) {
