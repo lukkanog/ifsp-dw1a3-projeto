@@ -1,0 +1,52 @@
+.mayor-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  justify-self: flex-start;
+  align-self: flex-start;
+}
+
+.mayor-picture {
+  height: 10rem;
+  margin-right: 2rem;
+  box-shadow: 5px 5px 10px #999;
+}
+
+.secretariat-table {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.secretariat-table td,
+.secretariat-table th {
+  padding: .5rem;
+  border: 1px solid #999;
+  margin: 0;
+  outline: 0;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+.secretariat-table thead {
+  color: #fff;
+  background-color: #008000;
+}
+
+
+@media screen and (max-width: 800px) {
+  .secretariat-table thead {
+    display: none;
+  }
+
+  .secretariat-table tr {
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+  }
+
+  .secretariat-table tr td:first-child {
+    font-weight: 700;
+  }
+}
+  

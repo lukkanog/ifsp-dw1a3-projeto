@@ -22,8 +22,8 @@
         <nav class="col nav">
           <ul class="menu-items">
             <li class="menu-item"><a href="noticias.html">Notícias</a></li>
-            <li class="menu-item"><a href="servicos.html">Serviços</a></li> 
-            <li class="menu-item"><a href="informacoes.html">Informações</a></li> 
+            <li class="menu-item"><a href="index.html#servicos">Serviços</a></li> 
+            <li class="menu-item"><a href="estrutura.html">Estrutura Administrativa</a></li> 
             <li class="menu-item"><a target="_blank" href="http://transparencia.miguelleao.pi.gov.br/index.php">Portal da transparência</a></li>
             <li class="menu-item"><a href="#contato">Contato</a></li> 
           </ul>
@@ -31,6 +31,7 @@
         <div class="col mobile-menu-icon">
           <img src="../assets/icons/menu.svg" alt="Menu">
         </div>
+      </div>
     </div>
   </header>
   <main class="main">
@@ -84,31 +85,67 @@
         </div>
       </div>
     </section>
+    <section id="servicos" class="container">
+      <div class="row">
+        <div class="col">
+          <h2 class="section-title">Serviços</h2>
+          <div class="services-container">
+            <div class="row">
+              <a class="services-item col" href="#servicos">
+                <img class="service-icon" src="../assets/icons/education.svg" alt="Educação">
+                <h3>Educação</h3>
+              </a> 
+              
+              <a class="services-item col" href="#servicos">
+                <img class="service-icon" src="../assets/icons/health.svg" alt="Saúde">
+                <h3>Saúde</h3>
+              </a> 
+              
+              <a class="services-item col" href="#servicos">
+                <img class="service-icon" src="../assets/icons/houses.svg" alt="Moradia">
+                <h3>Moradia</h3>
+              </a> 
+            </div>
+            <div class="row">
+              <a class="services-item col" href="#servicos">
+                <img class="service-icon" src="../assets/icons/bus.svg" alt="Transporte Público">
+                <h3>Transporte Público</h3>
+              </a> 
+              <a class="services-item col" href="#servicos">
+                <img class="service-icon" src="../assets/icons/schedule.svg" alt="Agendar atendimento">
+                <h3>Agendar atendimento</h3>
+              </a> 
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <section id="contato" class="container">
       <div class="row">
         <div class="col">
           <h2 class="section-title">Entre em Contato!</h2>
-          <form class="contact-form" action="">
+          <form class="contact-form">
             <div class="row">
               <div class="col form-input-group">
-                <label class="form-label"for="name">Nome</label>
+                <label class="form-label" for="name">Nome</label>
                 <input class="form-input" type="text" name="name" id="name" placeholder="Insira o seu nome">
               </div>
               <div class="col form-input-group">
-                <label class="form-label"for="phone">Telefone</label>
+                <label class="form-label" for="phone">Telefone</label>
                 <input class="form-input" type="text" name="phone" id="phone" placeholder="Insira o seu telefone">
               </div>
               <div class="col form-input-group">
-                <label class="form-label"for="email">E-mail</label>
+                <label class="form-label" for="email">E-mail</label>
                 <input class="form-input" type="text" name="email" id="email" placeholder="Insira o seu e-mail">
               </div>
             </div>
             <div class="row">
               <div class="col form-input-group grow-2 form-textarea-group">
-                <label class="form-label"for="message">Mensagem</label>
+                <label class="form-label" for="message">Mensagem</label>
                 <textarea name="message" id="message" rows="4" placeholder="Insira a sua mensagem aqui"></textarea>
               </div>
-              <input type="submit" class="col btn btn-primary" value="Enviar">
+              <input type="submit" class="col btn btn-primary form-input" value="Enviar">
+            </div>
           </form>
         </div>
       </div>
@@ -123,30 +160,25 @@
       <div class="row">
         <div class="col">
           <address class="footer-text">
-            <h4 class="bolder">Prefeitura de Miguel Leão</h4>
-            Rua dos Bobos, nº 0 - Bairro do Bobo, PI
-            <br>
-            CEP: 64445-000            
+            <p class="bolder">Prefeitura de Miguel Leão</p>
+            <p>Praça Almirante de Arêa Leão, 10 - Centro, PI</p>
+            <p>CEP: 64445-000</p>
           </address>
         </div>
-        <div class="col">
-          <p class="footer-text">
-            <h4 class="bolder">Contato</h4>
-            Telefone: (86) 98888-8888
-            <br>
-            E-mail:
+        <div class="col"> 
+          <div class="footer-text">
+            <p class="bolder">Contato</p>
+            <p>Telefone: (86) 98888-8888</p>
             <a href="mailto:prefmiguelleao@gmail.com" class="footer-link">prefmiguelleao@gmail.com</a>
-          </p>
+          </div>
         </div>
         <div class="col">
-          <p class="footer-text">
-            <h4 class="bolder">Horário de Funcionamento</h4>
-            Segunda à Sexta: 08:00 às 18:00
-            <br>
-            Sábado: 08:00 às 12:00
-            <br>
-            Domingo: Fechado
-          </p>
+          <div class="footer-text">
+            <p class="bolder">Horário de Funcionamento</p>
+            <p>Segunda à Sexta: 08:00 às 18:00</p>
+            <p>Sábado: 08:00 às 12:00</p>
+            <p>Domingo: Fechado</p>
+          </div>
         </div>
       </div>
     </div>
